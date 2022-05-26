@@ -12,9 +12,12 @@
         devShell = pkgs.mkShell {
           nativeBuildInputs = [ pkgs.bashInteractive ];
           buildInputs = with pkgs; [
-            python38
-            python38Packages.requests
-            python38Packages.flask
+            python39
+            python39Packages.requests
+            python39Packages.flask
+            python39Packages.black
+
+            ngrok
           ];
         };
       });
