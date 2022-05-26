@@ -16,6 +16,7 @@
             python39Packages.requests
             python39Packages.flask
             python39Packages.black
+            python39Packages.elasticsearch
 
             ngrok
           ];
